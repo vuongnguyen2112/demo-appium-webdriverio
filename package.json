@@ -38,5 +38,8 @@
         "@wdio/spec-reporter": "^7.14.1",
         "ts-node": "^10.2.1",
         "typescript": "^4.4.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.2"
     }
 }

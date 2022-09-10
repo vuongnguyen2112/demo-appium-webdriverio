@@ -1,9 +1,13 @@
 import {config} from './wdio.shared.conf';
 import {SauceRegions} from '@wdio/types/build/Options';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 // =====================
 // Sauce specific config
 // =====================
+
 config.user = process.env.SAUCE_USERNAME;
 config.key = process.env.SAUCE_ACCESS_KEY;
 
